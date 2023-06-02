@@ -32,7 +32,7 @@ process.on("unhandledRejection", (err) => {
   process.exitCode = 1;
 });
 
-main("projects/mango-dev-cvnd/agent", {
+main("", {
   displayName: "intentName",
   messages: [{ payload: {} }],
 });
